@@ -1,20 +1,22 @@
 import Camp from "@/components/Camp";
 import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      {/* section:hero */}
+      {/* SECTION : HERO  */}
       <Hero />
-      {/*section:camp  */}
+      {/*SECTION : CAMP  */}
       <Camp />
-      {/* section:guide  */}
+      {/* SECTION : GUIDE  */}
       <Guide />
-      {/* section:features  */}
+      {/* SECTION : FEATURES  */}
       <Features />
+      {/* SECTION : CTA  */}
+      <GetApp />
     </>
   );
 }
